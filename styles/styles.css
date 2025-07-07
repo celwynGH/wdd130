@@ -78,3 +78,8 @@ main img {
     float: right;
 }
 
+aside h2  {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
