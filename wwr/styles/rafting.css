@@ -21,7 +21,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);  /* font color sa company name, history, ug sa copyright. Ako giusab para makita */
 }
 
 header, main, footer {
@@ -61,7 +61,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: black;  /* color sa title gihimo nga black para makita */
 }
 
 .hero article img {
