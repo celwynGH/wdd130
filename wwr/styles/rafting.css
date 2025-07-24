@@ -87,13 +87,60 @@ h2 {
 
 .socialmedia img {
     width: 30px;
-   
+    
 }
 
 h3, h4 {
     color: darkblue;
 }
 
-footer {
-    text-align: right;
+
+nav {
+  display: flex;
+  justify-content: center; /* or space-around / space-between */
+  gap: 20px; /* spacing between links */
+  background-color: #3185FC; /*  */
+  padding: 10px;
 }
+
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3185FC; /*  */
+  gap: 2rem;
+}
+
+header img {
+  max-width: 120px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between; /* space between text and logo */
+  align-items: center;
+  padding: 1rem;
+  background-color: #3185FC; /*  */
+}
+
+footer .socialmedia {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
