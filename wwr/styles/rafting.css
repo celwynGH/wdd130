@@ -143,4 +143,11 @@ footer .socialmedia {
   justify-content: flex-end;
 }
 
+/*I add images here for adventure awaits you*/
 
+.adventure-images img {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 1rem auto; /* spacing between images */
+}
