@@ -151,3 +151,9 @@ footer .socialmedia {
   display: block;
   margin: 1rem auto; /* spacing between images */
 }
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+}
