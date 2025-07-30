@@ -1,96 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 | Contact Us Page</title>
-    <meta name="description" content="Contact Splash White Water Rafting in Cagayan de Oro for bookings, inquiries, or suggestions. We're happy to hear from you!">
-    <meta name="author" content="Celwyn Alexis B. Panis">
-
-    <link rel="stylesheet" href="styles/rafting.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WDD 130 | Contact Us Page</title>
+  <meta name="description" content="Contact Splash White Water Rafting in Cagayan de Oro for bookings, inquiries, or suggestions. We're happy to hear from you!" />
+  <meta name="author" content="Celwyn Alexis B. Panis" />
+  <link rel="stylesheet" href="styles/rafting.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <img src="images/splash.png" alt="Rafting Company Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a class="current" href="contact.html">Contact Us</a>
-        </nav>
+  <header>
+    <img src="images/splash.png" alt="Rafting Company Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a class="current" href="contact.html">Contact Us</a>
+    </nav>
+  </header>
 
-    </header>
-    <main>
-         <div class="hero">
-
-          
-            <h1>Splash White Water Rafting Company</h1></div>
-    <br>
-    <br>
-    <br>
-
-    <br>
-    <br>
-
-       
-       <h2>Send Us a Message</h2>
-
-<form action="#" method="post">
-  <div class="form-item">
-    <label for="name"><strong>Full Name:</strong></label>
-    <input type="text" id="name" name="name" required>
-  </div>
-
-  <div class="form-item">
-    <label for="email"><strong>Email Address:</strong></label>
-    <input type="email" id="email" name="email" required>
-  </div>
-
-  <fieldset class="form-item">
-    <legend><strong>Purpose of the Message:</strong></legend>
-    <label for="general"><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label><br>
-    <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label><br>
-    <label for="suggestion"><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
-  </fieldset>
-
-  <div class="form-item">
-    <label for="message"><strong>Your Message:</strong></label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-  </div>
-
-  <div class="form-item">
-    <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
-  </div>
-
-  <div class="form-item">
-    <button type="submit">Send Message</button>
-  </div>
-</form>
-
-           
-    <p><strong>Company Name:</strong> Splash White Water Rafting<br> 
-    <strong>Mobile Number:</strong> 09123456789<br>
-    <strong>Email:</strong> <a href="mailto:">splashwhitewaterrafting-philippines-cdo@gmail.com</a></p>
-    <div class="map">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2292.606655979209!2d124.64960965861354!3d8.482299890268095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2dbbdfa2743%3A0x53d89c6be5cb12df!2sKagay%20Whitewater%20Rafting!5e1!3m2!1sen!2sph!4v1753683801224!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+  <main>
+    <div class="hero">
+      <h1>Splash White Water Rafting Company</h1>
     </div>
+<br><br><br><br>
+    <!-- Employee Profiles Section -->
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="profiles">
+        <figure>
+          <img src="images/juan.png" alt="Juan Dee - Guide" />
+          <figcaption>Juan Dee - Senior River Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/jana.png" alt="Jana Sy - Coordinator" />
+          <figcaption>Jana Sy - Tour Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/carlo.png" alt="Carlo Reyes - Safety Officer" />
+          <figcaption>Carlo Reyes - Safety Officer</figcaption>
+        </figure>
+      </div>
+    </section>
 
-    </main>
-    <footer>
-         <p>© 2025 | Splash White Water Rafting Company</p>
+    <!-- Contact Form Section -->
+    <h2>Send Us a Message</h2>
+    <form action="#" method="post">
+      <div class="form-item">
+        <label for="name"><strong>Full Name:</strong></label>
+        <input type="text" id="name" name="name" required />
+      </div>
 
-         <nav class="wireframe">
-            <a href="https://wireframe.cc/e1trVf">
-            <img src="images/wireframes.png" alt="wireframes">
-    </a>
-  </nav>
- 
-</footer>
+      <div class="form-item">
+        <label for="email"><strong>Email Address:</strong></label>
+        <input type="email" id="email" name="email" required />
+      </div>
 
+      <fieldset class="form-item">
+        <legend><strong>Purpose of the Message:</strong></legend>
+        <label><input type="radio" id="general" name="purpose" value="general" required /> General Inquiry</label><br />
+        <label><input type="radio" id="reservation" name="purpose" value="reservation" /> Reservation Question</label><br />
+        <label><input type="radio" id="suggestion" name="purpose" value="suggestion" /> Website Suggestion</label>
+      </fieldset>
+
+      <div class="form-item">
+        <label for="message"><strong>Your Message:</strong></label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <div class="form-item">
+        <label><input type="checkbox" name="subscribe" /> Please subscribe me to the monthly newsletter</label>
+      </div>
+
+      <div class="form-item">
+        <button type="submit">Send Message</button>
+      </div>
+    </form>
+
+    <!-- Contact Info -->
+    <p>
+      <strong>Company Name:</strong> Splash White Water Rafting<br />
+      <strong>Mobile Number:</strong> 09123456789<br />
+      <strong>Email:</strong>
+      <a href="mailto:splashwhitewaterrafting-philippines-cdo@gmail.com">splashwhitewaterrafting-philippines-cdo@gmail.com</a>
+    </p>
+
+    <!-- Map Section -->
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2292.606655979209!2d124.64960965861354!3d8.482299890268095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2dbbdfa2743%3A0x53d89c6be5cb12df!2sKagay%20Whitewater%20Rafting!5e1!3m2!1sen!2sph!4v1753683801224!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 | Splash White Water Rafting Company</p>
+    <nav class="wireframe">
+      <a href="https://wireframe.cc/e1trVf">
+        <img src="images/wireframes.png" alt="wireframes" />
+      </a>
+    </nav>
+  </footer>
 </body>
 </html>
