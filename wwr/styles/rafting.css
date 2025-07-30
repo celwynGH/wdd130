@@ -161,3 +161,10 @@ figcaption {
 .wireframe img {
     width: 30px;
 }    
+
+nav a.current {
+ 
+  color: white;
+  border-bottom: 2px solid steelblue;
+}
+
