@@ -162,6 +162,7 @@ figcaption {
     width: 30px;
 }    
 
+/* highlights the Home, About Us, Trips and Contact when selected */
 nav a.current {
  
   color: white;
