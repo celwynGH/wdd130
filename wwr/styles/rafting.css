@@ -231,3 +231,52 @@ nav a.current {
   height: auto;
   border-radius: 10px;
 }
+
+/*trip here*/
+
+.trip-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.trip {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.trip img {
+  width: 100%;
+  height: auto;
+}
+
+.trip h3 {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.trip p {
+  padding: 0 1rem 1rem 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #00796b;
+  color: white;
+}
