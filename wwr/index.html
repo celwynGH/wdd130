@@ -42,9 +42,15 @@
     <section class="newsletter">
       <h2>Subscribe to Our Newsletter</h2>
       <form>
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <button type="submit">Subscribe</button>
+        <div>
+          <label for="subscriber-name">Name:</label>
+          <input type="text" id="subscriber-name" name="subscriber-name" placeholder="Your Name" required />
+        </div>
+        <div>
+          <label for="subscriber-email">Email:</label>
+          <input type="email" id="subscriber-email" name="subscriber-email" placeholder="Your Email" required />
+        </div>
+        <button type="submit">Sign Me Up!</button>
       </form>
     </section>
 
